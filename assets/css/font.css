@@ -56,3 +56,9 @@
     font-weight: 600;
     src: url("../fonts/HelveticaNeueLTStd-Bd.otf") format("opentype");
 }
+
+@font-face {
+    font-family: 'Aquire', sans-serif;
+    font-weight: 600;
+    src: url("../fonts/Aquire-BW0ox.otf") format("opentype");
+}
