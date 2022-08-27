@@ -738,3 +738,13 @@ div.team-hex hr {
   background-color: rgba(6, 6, 62, 0.446);
   border-radius: 5vh;
 }
+
+@media (max-width: 500px) {
+    .cart {
+        display: none;
+        position: relative;
+    }
+    .vision{
+        width: 100%;
+    }
+}
