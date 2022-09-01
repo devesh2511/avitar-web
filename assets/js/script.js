@@ -90,12 +90,12 @@ $(document).ready(function () {
     if (file == 'index.html' || file == '' || file == 'Bajasite') {
         createNewsTiles();
         createGalleries();
-        $("#about").append(bkgtxt);
+        $("#aboutavi").append(bkgtxt);
         dispResults(2018);
         Object.keys(results).forEach(function (year) { $('#results .col-md-4').append('<button type="button" class="btn btn-primary" onclick="dispResults(' + year + ');">' + year + '</button>') });
         createSponsorLink();
         $(window).scroll(function () {
-            if (scrolledIntoElement('#about')) {
+            if (scrolledIntoElement('#aboutavi')) {
                 $('nav#mynav').addClass('bg-white');
                 $('a.nav-link').each(function () {
                     $(this).addClass('txt-black');
@@ -110,7 +110,7 @@ $(document).ready(function () {
         });
         if (mobile) {
             console.log(mobile);
-            $("#about").css('padding-bottom', 50 + $("#jumpcar").height());
+            $("#aboutavi").css('padding-bottom', 50 + $("#jumpcar").height());
         }
     }
     if (file == 'thecar.html' || file == 'thecar') {
