@@ -8,13 +8,31 @@ body {
 a{
     color: #000000;
 }
-
+.header{
+    font-weight: 600;
+    font-size: 2.1em;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
 a:hover {
     color: rgb(3, 3, 101);
     text-decoration: none;
     cursor: pointer;
 }
-
+#logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transition: all 0.5s ease-in;
+  }
+  
+  #logo:hover {
+    filter: hue-rotate(180deg);
+  }
 .relative{
     size: 110%;
     height: auto;
@@ -144,10 +162,10 @@ nav {
     font-size: 4vh;
 }
 
-a.navbar-brand{
+.navbar-brand{
     font-family: Aquire;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 30px;
     letter-spacing: 0.1em;
     font-style: italic;
 }
@@ -746,5 +764,8 @@ div.team-hex hr {
     }
     .vision{
         width: 100%;
+    }
+    .navbar-brand{
+        display: none;
     }
 }

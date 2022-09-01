@@ -3164,9 +3164,9 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #ffffff;
+    color: #000000;
     text-align: left;
-    background-color: rgb(22, 0, 0);
+    background-color: rgb(255, 255, 255);
   }
   [tabindex="-1"]:focus {
     outline: 0 !important;
@@ -3629,7 +3629,8 @@
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
-  }
+    justify-content: space-around;
+}
   .no-gutters {
     margin-right: 0;
     margin-left: 0;
@@ -3960,7 +3961,6 @@
       -webkit-box-flex: 0;
       -ms-flex: 0 0 50%;
       flex: 0 0 50%;
-      max-width: 50%;
     }
     .col-sm-7 {
       -webkit-box-flex: 0;
@@ -4342,7 +4342,7 @@
       -webkit-box-flex: 0;
       -ms-flex: 0 0 25%;
       flex: 0 0 25%;
-      max-width: 25%;
+      /* max-width: 25%; */
     }
     .col-lg-4 {
       -webkit-box-flex: 0;

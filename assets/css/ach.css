@@ -829,9 +829,10 @@ ul {
 }
 .section-title .title {
   margin-bottom: 0;
-  font-size: 20px;
+  font-size: 40px;
+  font-family: 'Aquire';
   display: inline-block;
-  color: #201654;
+  color: rgb(6,6,62);
 }
 .section-title.style-two {
   padding-bottom: 15px;
@@ -2326,13 +2327,20 @@ ul {
 }
 .single-post-wrap .thumb {
   position: relative;
-  margin-bottom: 27px;
+  margin-bottom: 10px;
   overflow: hidden;
   border-radius: 5px;
 }
 .single-post-wrap .thumb img {
-  transition: 0.8s;
-  transform: scale(1.01);
+  transition: 0.7s;
+  transform: scale(2.0);
+  height: 250px;
+  width: 250px;
+}
+.single-post-wrap .thumb video {
+ 
+  height: 250px;
+  width: 250px;
 }
 .single-post-wrap .thumb .tag-base {
   position: absolute;
@@ -2438,7 +2446,7 @@ ul {
   color: rgba(255, 255, 255, 0.8);
 }
 .single-post-wrap.style-white .details .title {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 .single-post-wrap.style-white .details p {
   color: #fff;
