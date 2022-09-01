@@ -62,3 +62,9 @@
     font-weight: 600;
     src: url("../fonts/Aquire-BW0ox.otf") format("opentype");
 }
+
+@font-face {
+    font-family: Blanka;
+    font-weight: 600;
+    src: url("../fonts/Blanka-Regular.otf") format("opentype");
+}
