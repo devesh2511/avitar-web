@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap");
+@import url('http://fonts.cdnfonts.com/css/aquire');
 
 :root {
   --orange: #f9713d;
@@ -41,7 +42,7 @@ body {
   .section-title .title {
     margin-bottom: 0;
     font-size: 40px;
-    font-family: 'Aquire';
+    font-family: 'Aquire', sans-serif;
     display: inline-block;
     color: rgb(6,6,62);
   }
@@ -101,7 +102,7 @@ body {
   text-decoration: none !important;
 }
 .header {
-  font-family: "Aquire";
+  font-family: 'Aquire', sans-serif;
   font-weight: 600;
   font-size: 2.1em;
   padding-left: 10px;
@@ -1304,7 +1305,7 @@ div.contact div.contact_form .follow .social_link a:hover {
 
 .card h6 {
 	font-size: 22px;
-  font-family: Aquire;
+  font-family: 'Aquire', sans-serif;
 	margin: 1.2rem 0 0;
 	color: #000b37;
 }

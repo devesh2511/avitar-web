@@ -1,0 +1,28 @@
+.section-title {
+    position: relative;
+    margin-top: 10vh;
+    padding-bottom: 34px;
+  }
+  .section-title .title {
+    margin-bottom: 0;
+    font-size: 40px;
+    font-family: Aquire;
+    display: inline-block;
+    color: rgb(6,6,62);
+  }
+  .section-title.style-two {
+    padding-bottom: 15px;
+    margin-bottom: 45px;
+    border-bottom: 1px solid #b3b3b3;
+  }
+  .section-title.style-white .title {
+    color: #fff;
+  }
+  .section-title.style-white p {
+    color: #fff;
+  }
+  .section-title.style-white .btn-read-more {
+    color: #fff;
+  }
+
+  

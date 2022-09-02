@@ -149,7 +149,7 @@ span.badge-pill {
 
 
 h1,h2,h3,h4,h5 {
-    font-family: Aquire;
+    font-family: 'Aquire', sans-serif;
     font-weight: bold;
     color: rgb(6,6,62);
 }
@@ -164,7 +164,7 @@ nav {
 }
 
 .navbar-brand{
-    font-family: Aquire;
+    font-family: 'Aquire', sans-serif;
     font-weight: bold;
     font-size: 25px;
     letter-spacing: 0.1em;
@@ -518,12 +518,14 @@ div.team-hex {
 }
 
 div.team-hex h1.group {
+    top: 80%;
     position: absolute;
     font-style: italic;
     font-weight: bold;
     letter-spacing: 0.08em;
     font-style: italic;
-    left: 25px;
+    left: 7%;
+    font-size: 25px;
     color: rgb(6,6,62);
 }
 
