@@ -54,7 +54,7 @@ body {
   filter: grayscale(0);
 }
 .grid-container div:hover {
-  border-color: coral;
+  border-color: rgb(6, 6, 110);
 }
 .grid-container div img {
   width: 100%;
