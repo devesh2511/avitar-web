@@ -149,13 +149,14 @@ span.badge-pill {
 
 
 h1,h2,h3,h4,h5 {
-    font-family: 'Aquire', sans-serif;
+    font-family: 'Aquire', sans-serif !important;
     font-weight: bold;
     color: rgb(6,6,62);
 }
 .title{
     font-size: 30px;
     text-align: center;
+    font-weight: bold;
 }
 nav {
     font-weight: bold;
@@ -400,6 +401,7 @@ div#showresult img {
     font-weight: bold;
     margin-left: -30px;
     margin-right: -40px;
+    font-family: 'Aquire', sans-serif !important;
 }
 
 #showresult h4 {
@@ -731,15 +733,12 @@ div.team-hex hr {
     }
 }
 .vision{
-    position: absolute;
+    position: absolute; 
     display: flex;
-    justify-content: center;
-    left: auto;
-    right: auto;
+    justify-content: space-evenly;
     width: 100%;
     height: 400px;
     margin-top: 5vh;
-    flex-wrap: nowrap;
     flex-direction: row;
 }
 .vision img {
@@ -752,7 +751,7 @@ div.team-hex hr {
 .vision:hover img {
 	-webkit-filter: blur(3px);
 	filter: blur(3px);
-    border-radius: 5vh;
+    border-radius: 2vh;
 }
 .overlay {
   position: absolute;
@@ -783,7 +782,7 @@ div.team-hex hr {
   text-align: center;
   opacity: 1;
   background-color: rgba(6, 6, 62, 0.446);
-  border-radius: 5vh;
+  border-radius: 2vh;
 }
 
 @media (max-width: 500px) {
