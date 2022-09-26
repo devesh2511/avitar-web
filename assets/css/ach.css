@@ -2285,8 +2285,11 @@ a.nav-link{
 
 .single-post-wrap {
   position: relative;
-  margin-bottom: 30px;
-  transition: 0.4s;
+    margin-bottom: 30px;
+    transition: 0.4s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .single-post-wrap .thumb {
   position: relative;
@@ -2310,6 +2313,7 @@ a.nav-link{
   right: 2px;
   top: 9px;
   z-index: 3;
+  text-decoration: none;
 }
 .single-post-wrap .thumb .btn-date {
   position: absolute;
