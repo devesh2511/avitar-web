@@ -25,4 +25,16 @@
     color: #fff;
   }
 
-  
+li.tmem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+  font-size: 20px;
+}
+ul.oname{
+  display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+}

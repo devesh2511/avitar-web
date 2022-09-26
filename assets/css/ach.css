@@ -1581,6 +1581,13 @@ ul {
 /*----------------------------------------------
     # Nav bar 
 ----------------------------------------------*/
+nav{
+  font-weight: bold;
+}
+a.nav-link{
+    font-family: Bebas-neue;
+    font-size: 4vh;
+}
 .navbar-area {
   padding: 0;
   top: 0;
